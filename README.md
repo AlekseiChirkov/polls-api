@@ -4,9 +4,7 @@
 
 Docker:
 1. Clone repo locally
-2. Run docker-compose build
-      sudo docker build .
-      sudo docker-compose build
+2. Run docker-compose build: sudo docker build . and sudo docker-compose build
 3. Change settings local environment variables to yours in .env file (you can see .env.example)
 4. Migrate models in your db
 5. Run server
@@ -20,6 +18,6 @@ Without Docker:
 6. Runserver
 
 
-You also will be need to create super user for admin, to create or change polls from admin web-site
-      python manage.py createsuperuser
+You also will be need to create super user for admin, to create or change polls from admin web-site:
+python manage.py createsuperuser
 
